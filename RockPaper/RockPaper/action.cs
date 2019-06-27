@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace RockPaper
 {
-    public class actions
+    public class actions : GameAction
     {
-        //member variables
-        bool tie = false;
-        public string p1= "playerOne";
-        public string p2= "cpu";
-        public string result;
-        int rounds = numOfRounds;
+        public ComputerPlayer()
+        {
+            this.name = "Player 2";
+        }
+
+
+
 
 
 
@@ -26,34 +27,50 @@ namespace RockPaper
 
 
 
+
+
         //member methods
 
-        public void GetCurrentRound();
-        
-        
+
+
+        public void getCurrentRound()
+        {
+
+        }
+
+        public void getWinner()
+        {
+            if (scorePlayer == 3) ;
+            {
+                Console.WriteLine("Player Won!");
+            }
+
+            //  else (scoreCpu == 3); ;
+            // {
+            //  Console.WriteLine("CPU Won!");
+            // }
 
 
 
-             
-
-        public void GetCurrentRound();
-
-
-
-        public void GetgameWinnerName();
 
 
 
 
-        public void playRound();
 
 
-        public void playSingleRound();
-
-        public void GetGameSetup();
 
 
-        public void startGame();
 
-    }
-}   
+
+
+
+
+
+
+
+
+
+        }
+
+
+    }   } 
