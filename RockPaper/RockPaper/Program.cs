@@ -8,8 +8,11 @@ namespace RockPaper
 {
     class Program
     {
-        static void Main(string[] args)
+       public  static void Main(string[] args)
         {
+
+            GameAction myGame = new Game();
+            myGame.StartGame();
         }
     }
 }

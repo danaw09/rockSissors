@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace RockPaper
 {
-    class GameAction
+    public class GameAction:action.cs
+
     {
-    }
+        //member variables
+      
+        //constructor
+
+
+
+        //member methods
+         
+
+     }   
 }
